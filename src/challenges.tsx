@@ -170,6 +170,7 @@ export const challenges: Challenge[] = [
 
   /* False Son skills */
   { name: 'Purified Freedom', description: 'Purify the Heart of the False Son using the Halcyon Seed.', unlocks: ['Characters.FalseSon'], achievement: 'UnlockFalseSon', icon: 'characters/falseson' },
+  { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'skills/falseson/lunarstakes' },
   { name: 'False Son: Stare Them Down', description: 'As False Son, kill 15 enemies with one activation of Laser of the Father.', unlocks: ['Skills.FalseSon.LaserBurst'], achievement: 'FalseSonLaserMultiKill', icon: 'skills/falseson/laserburst' },
   { name: 'False Son: Mastery', description: 'As False Son, beat the game or obliterate on Monsoon.', unlocks: ['Skins.FalseSon.Alt1'], achievement: 'FalseSonClearGameMonsoon', icon: 'skins/falseson/alt1' },
 
