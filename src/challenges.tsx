@@ -168,7 +168,7 @@ export const challenges: Challenge[] = [
   /* Chef skills */
   { name: 'Order Up!', description: 'Complete the Wok\'s recipe in Reformed Altar.', unlocks: ['Characters.Chef'], achievement: 'ActivateChef', icon: 'characters/chef' },
   { name: 'CHEF: It\'s Getting Hot In Here!', description: 'As CHEF apply 20 stacks of Burn at once to Mithrix.', unlocks: ['Skills.Chef.IceBox'], achievement: 'BurnMithrix', icon: 'skills/chef/icebox' },
-  { name: 'CHEF: You\'ve Always Been Crazy', description: 'As CHEF hit five airborne enemies with one instance of Roll.', unlocks: [], achievement: '', icon: 'skills/chef/oilspill' },
+  { name: 'CHEF: You\'ve Always Been Crazy', description: 'As CHEF hit five airborne enemies with one instance of Roll.', unlocks: ['Skills.Chef.OilSpill'], achievement: 'RolyPolyHitFiveAirEnemies', icon: 'skills/chef/oilspill' },
   { name: 'CHEF: Barbecued Bison Recipe Complete', description: 'As Chef complete 10 recipes by searing an oiled bison with Sear.', unlocks: ['Skills.Chef.YesChef'], achievement: 'BarbecueQuantityBisonInRun', icon: 'skills/chef/searbison' },
   { name: 'CHEF: Mastery', description: 'As Chef, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Chef.Alt1'], achievement: 'ChefClearGameMonsoon', icon: 'skins/chef/alt1' },
 
