@@ -161,7 +161,7 @@ export const challenges: Challenge[] = [
 
   /* Seeker skills */
   { name: 'Seeker: Airborne Souls', description: 'As Seeker, hit three or more airborne enemies with a single use of the exploding third hit of Spirit Punch.', unlocks: ['Skills.Seeker.SoulSearch'], achievement: 'SeekerAirMultiHit', icon: 'skills/seeker/soulsearch' },
-  { name: 'Seeker: Scorched Earth', description: 'As Seeker, deal 500,000% damage with one use of Sojourn\'s explosion.', unlocks: [], achievement: '', icon: 'skills/seeker/reprieve' },
+  { name: 'Seeker: Scorched Earth', description: 'As Seeker, deal 500,000% damage with one use of Sojourn\'s explosion.', unlocks: ['Skills.Seeker.Reprieve'], achievement: 'NukeSojourn', icon: 'skills/seeker/reprieve' },
   { name: 'Seeker: Clear Mind', description: 'As Seeker, meditate 20 times without missing an input in a single run.', unlocks: ['Skills.Seeker.PalmBlast'], achievement: 'SeekerPerfect20Meditation', icon: 'skills/seeker/palmblast' },
   { name: 'Seeker: Mastery', description: 'As Seeker, beat the game or obliterate on Monsoon.', unlocks: ['Skins.Seeker.Alt1'], achievement: 'SeekerClearGameMonsoon', icon: 'skins/seeker/alt1' },
 
@@ -175,7 +175,7 @@ export const challenges: Challenge[] = [
   /* False Son skills */
   { name: 'Purified Freedom', description: 'Purify the Heart of the False Son using the Halcyon Seed.', unlocks: ['Characters.FalseSon'], achievement: 'UnlockFalseSon', icon: 'characters/falseson' },
   { name: 'False Son: Protein Heavy Diet', description: 'As False Son, gain up to 40 Lunar Spikes through Growth.', unlocks: ['Skills.FalseSon.LunarStake'], achievement: 'FalseSonGrowthChallenge', icon: 'skills/falseson/lunarstakes' },
-  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill Mithrix while Mithrix is inflicted with at least one Lunar Ruin.', unlocks: [], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'skills/falseson/meridianswill' },
+  { name: 'False Son: Family Bonding', description: 'As False Son, have Aurelionite kill Mithrix while Mithrix is inflicted with at least one Lunar Ruin.', unlocks: ['Skills.FalseSon.MeridiansWill'], achievement: 'FalseSonKillMithrixWithGoldenGal', icon: 'skills/falseson/meridianswill' },
   { name: 'False Son: Stare Them Down', description: 'As False Son, kill 15 enemies with one activation of Laser of the Father.', unlocks: ['Skills.FalseSon.LaserBurst'], achievement: 'FalseSonLaserMultiKill', icon: 'skills/falseson/laserburst' },
   { name: 'False Son: Mastery', description: 'As False Son, beat the game or obliterate on Monsoon.', unlocks: ['Skins.FalseSon.Alt1'], achievement: 'FalseSonClearGameMonsoon', icon: 'skins/falseson/alt1' },
 
